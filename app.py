@@ -21,8 +21,8 @@ HTML = """
     </form>
  
     <p style="margin-top:50px; font-size:14px; color:gray;">
-      Realizado por Martina Negrin Barcellos. colaboradorx: Brigit Zapata Munoz - Escuela de Arte y Patrimonio - UNSAM - Maestría en Practicas Artisticas Contemporaneas -
-Taller de escrituras I. Practicas de desgobierno ficcional - docente: val flores
+      Realizado por Martina Negrin Barcellos. colaboradorx: Brigit Zapata Muñoz - Escuela de Arte y Patrimonio - UNSAM - Maestría en Prácticas Artísticas Contemporáneas -
+Taller de escrituras I. Prácticas de desgobierno ficcional - docente: val flores
 
     </p>
   </body>
