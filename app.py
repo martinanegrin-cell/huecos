@@ -13,11 +13,46 @@ HTML = """
 <html>
   <head>
     <title>Tramar de los huecos un refugio</title>
+  </head> <style>
+      body {
+        background-color: #000000;      /* fondo negro */
+        color: #ff69b4;                 /* rosa tipo hotpink */
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+        text-align: center;
+        padding-top: 100px;
+      }
+      h2 {
+        color: #ff69b4;
+        font-weight: bold;
+      }
+      button {
+        padding: 12px 25px;
+        font-size: 16px;
+        background-color: #ff69b4;
+        color: black;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+      }
+      button:hover {
+        background-color: #ff85c1;
+      }
+      p {
+        margin-top: 50px;
+        font-size: 14px;
+        color: #ff69b4;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;
+      }
+    </style>
   </head>
-  <body style="font-family:sans-serif; text-align:center; padding-top:100px;">
+ 
     <h2>Tramar de los huecos un refugio   </h2>
     <form action="/generar" method="post">
-      <button type="submit" style="padding:10px 20px; font-size:16px;">🎲 Hacé clic para generar fanzine.</button>
+      <button type="submit" style="padding:20px 40px; font-size:30px;">🎲 Hacé clic para generar fanzine.🎲</button>
     </form>
  
     <p style="margin-top:50px; font-size:14px; color:gray;">
