@@ -48,7 +48,7 @@ def generar():
     salida.save(buffer)
     buffer.seek(0)
 
-    return send_file(buffer, as_attachment=True, download_name="resultado.pdf")
+    return send_file(buffer, as_attachment=True, download_name="Tramardeloshuecosunrefugio.pdf")
 
 if __name__ == "__main__":
     app.run(debug=True)
