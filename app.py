@@ -49,7 +49,7 @@ HTML = """
       }
     </style>
   </head>
- 
+   <body>
     <h2>Tramar de los huecos un refugio   </h2>
     <form action="/generar" method="post">
       <button type="submit" style="padding:20px 40px; font-size:30px;">🎲 Hacé clic para generar fanzine.🎲</button>
