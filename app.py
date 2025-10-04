@@ -15,14 +15,11 @@ HTML = """
     <title>Tramar de los huecos un refugio</title>
   </head>
   <body style="font-family:sans-serif; text-align:center; padding-top:100px;">
-    <h2>Tramar de los huecos un refugio
-    Martina Negrin Barcellos
-    colaboradorx: Brigit Zapata Muñoz
-    </h2>
+    <h2>Tramar de los huecos un refugio   </h2>
     <form action="/generar" method="post">
       <button type="submit" style="padding:10px 20px; font-size:16px;">🎲 Hacé clic para generar fanzine.</button>
     </form>
-     <!-- Texto agregado al final -->
+ 
     <p style="margin-top:50px; font-size:14px; color:gray;">
       Escuela de Arte y Patrimonio - UNSAM
 Maestría en Prácticas Artísticas Contemporáneas
