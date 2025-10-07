@@ -82,18 +82,20 @@ def generar():
     random.shuffle(archivos)
 
     salida = Pdf.new()
- if os.path.exists(PORTADA):
+    
+    if os.path.exists(PORTADA):
         with Pdf.open(PORTADA) as p:
             salida.pages.extend(p.pages)
     else:
         return "Error: No se encontró el archivo 'portada.pdf'"
+        
     for archivo in archivos:
         with Pdf.open(archivo) as pdf:
             if len(pdf.pages) != 1:
                 return f"Error: {archivo} no tiene exactamente una página"
             salida.pages.append(pdf.pages[0])
             
-if os.path.exists(ULTIMA):
+    if os.path.exists(ULTIMA):
         with Pdf.open(ULTIMA) as u:
             salida.pages.extend(u.pages)
     else:
